@@ -1,0 +1,250 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Greetings", "Good day"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Greetings! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Farewell"],
+      "responses": ["Goodbye! If you have more questions, feel free to ask later.", "See you later! Have a great day.", "Farewell!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome! If you need further assistance, feel free to ask.", "Glad I could help! If you have more questions, let me know."]
+    },
+    {
+      "tag": "upcoming_events",
+      "patterns": ["What are the upcoming college holidays?", "When is the next break?", "Tell me about upcoming events", "College holidays"],
+      "responses": ["Sure, let me check that for you. Please wait a moment.", "I can help you with that. Let me fetch the information for you."]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": ["When are the upcoming exams?", "Tell me about the exam schedule", "Exam dates", "Upcoming tests"],
+      "responses": ["I can provide you with the upcoming exam schedule. Please give me a moment to retrieve the information.", "Sure, I'll get the exam schedule for you. Just a moment."]
+    },
+    {
+      "tag": "college_information",
+      "patterns": ["Tell me about SRM University", "General information about the college", "About SRM", "Campus details"],
+      "responses": ["SRM University is a renowned institution known for... [Provide brief information about the university]. Is there anything specific you would like to know?", "SRM University is committed to excellence in education... [Provide key information]. If you have specific questions, feel free to ask."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help me with something", "Support"],
+      "responses": ["Of course! I'm here to help. What do you need assistance with?", "Absolutely, I'm here to assist you. Please let me know how I can help."]
+    },
+    {
+      "tag": "update_contact_info",
+      "patterns": ["How can I update my contact information?", "Change phone number", "Update email address"],
+      "responses": ["You can update your contact information on the student portal under the profile or personal details section. For changing your phone number or email address, visit the respective fields in the portal."]
+    },
+    {
+      "tag": "address_change",
+      "patterns": ["How do I change my residential address?", "Update mailing address", "Residential address update process"],
+      "responses": ["To change your residential address, go to the student portal and navigate to the profile or address section. Follow the provided steps to update your mailing address."]
+    },
+    {
+      "tag": "emergency_contact_update",
+      "patterns": ["How to update emergency contact details?", "Change emergency contact", "Emergency contact information update"],
+      "responses": ["You can update your emergency contact details on the student portal in the emergency contact section. To change or update your emergency contact, go to the respective field and make the necessary changes."]
+    },
+    {
+      "tag": "name_change_request",
+      "patterns": ["How can I request a name change?", "Procedure for changing my name", "Name change request form"],
+      "responses": ["To request a name change, please contact the registrar's office. They will provide you with the necessary procedures and forms for updating your name."]
+    },
+    {
+      "tag": "course_feedback",
+      "patterns": ["How can I provide feedback for a course?", "Course evaluation process", "Feedback submission deadline"],
+      "responses": ["You can provide feedback for a course through the student portal in the course feedback section. The course evaluation process involves collecting student input to improve the quality of courses. The feedback submission deadline is [date]."]
+    },
+    {
+      "tag": "faculty_feedback",
+      "patterns": ["How do I give feedback about a faculty member?", "Faculty evaluation process", "Anonymous feedback option"],
+      "responses": ["Faculty feedback can be submitted through the student portal in the faculty feedback section. The faculty evaluation process aims to gather input for continuous improvement. You can choose to provide anonymous feedback to ensure honest opinions."]
+    },
+    {
+      "tag": "course_information",
+      "patterns": ["Tell me about [specific course]", "Course details", "What courses are available this semester?"],
+      "responses": ["Details about [specific course] can be found on the course catalog or by contacting the academic department. You can view the list of available courses for this semester in the course registration section on the student portal."]
+    },
+    {
+      "tag": "course_requirements",
+      "patterns": ["What are the prerequisites for [specific course]?", "Course requirements", "How do I fulfill major requirements?"],
+      "responses": ["Prerequisites for [specific course] can be found in the course catalog or by consulting with your academic advisor. To understand and fulfill major requirements, consult the academic department or check your degree audit on the student portal."]
+    },
+    {
+      "tag": "class_materials",
+      "patterns": ["Where can I find class materials for [specific course]?", "Textbooks for [course]", "Course syllabus"],
+      "responses": ["Class materials for [specific course] can be found on the course page on the student portal or by contacting the instructor. Textbook information is available in the syllabus or can be obtained from the college bookstore."]
+    },
+    {
+      "tag": "course_evaluation",
+      "patterns": ["How are courses evaluated?", "Grading system", "Can I see my exam papers?"],
+      "responses": ["Courses are typically evaluated based on exams, assignments, and participation. Details about the grading system can be found in the course syllabus. If you wish to review your exam papers, please discuss it with your instructor."]
+    },
+    {
+      "tag": "course_withdrawal",
+      "patterns": ["How do I withdraw from a course?", "Withdrawal deadline", "Consequences of course withdrawal"],
+      "responses": ["To withdraw from a course, visit the student portal and follow the withdrawal process. The withdrawal deadline is [date]. Be aware of the consequences of course withdrawal, such as academic standing and financial implications."]
+    },
+    {
+      "tag": "cgpa",
+      "patterns": ["How is CGPA calculated?", "Where can I check my CGPA?", "How often is CGPA updated?", "What is the minimum CGPA to graduate?"],
+      "responses": ["CGPA is calculated by averaging the grade points earned in each course. You can check your CGPA on the student portal under the grades section.", "To view your CGPA, log in to the student portal and navigate to the grades section.", "CGPA is typically updated at the end of each semester. You will be notified once the updates are available.", "The minimum CGPA required to graduate is [specific CGPA]. Check the academic policies for more details."]
+    },
+    {
+      "tag": "cgpa_calculator",
+      "patterns": ["Is there a CGPA calculator available?", "How can I calculate my CGPA?", "Formula for CGPA calculation"],
+      "responses": ["Yes, there is a CGPA calculator available on the student portal. You can use it to estimate your CGPA based on your current grades.", "To calculate your CGPA, sum the product of your course credit hours and corresponding grade points, and then divide by the total credit hours.", "The formula for CGPA calculation is: CGPA = Σ (Credit Hours * Grade Points) / Σ Credit Hours."]
+    },
+    {
+      "tag": "cgpa_trends",
+      "patterns": ["Can I track my CGPA trends?", "CGPA improvement strategies"],
+      "responses": ["Yes, you can track your CGPA trends on the student portal over different semesters.", "To improve your CGPA, consider creating a study schedule, seeking help from tutors, and actively participating in class discussions. Additionally, review and revise your study methods."]
+    },
+    {
+      "tag": "results",
+      "patterns": ["How can I check my midterm results?", "When will the final exam results be published?", "Can I request a reevaluation of my results?"],
+      "responses": ["You can check your midterm results by logging in to the student portal and navigating to the results section.", "Final exam results are typically published [mention timeframe]. You will be notified once they are available.", "If you wish to request a reevaluation of your results, please visit the exam office or check the reevaluation process on the student portal."]
+    },
+    {
+      "tag": "graduation_requirements",
+      "patterns": ["What are the graduation requirements?", "How can I track my progress towards graduation?", "Graduation ceremony details"],
+      "responses": ["Graduation requirements can be found in the academic handbook or by contacting the academic advising office.", "You can track your progress towards graduation through the student portal or by meeting with your academic advisor.", "Details about the graduation ceremony will be announced closer to the graduation date. Check the announcements section on the student portal for updates."]
+    },
+    {
+      "tag": "academic_advising",
+      "patterns": ["How can I schedule an appointment with my academic advisor?", "What services does the academic advising office provide?", "Can I change my major?"],
+      "responses": ["You can schedule an appointment with your academic advisor through the student portal or by contacting the academic advising office.", "The academic advising office provides services such as helping you plan your course schedule, providing guidance on major/minor selection, and assisting with academic concerns.", "Yes, you can change your major. Visit the academic advising office for guidance and the necessary paperwork."]
+    },
+    {
+      "tag": "attendance",
+      "patterns": ["How can I check my attendance?", "What is the attendance policy?", "Missing attendance mark"],
+      "responses": ["You can view your attendance by logging in to the student portal and navigating to the attendance section.", "The attendance policy is available in the student handbook or on the college website. Make sure to review it for details on attendance requirements.", "If you believe there is an error in your attendance record, please contact the attendance office for assistance."]
+    },
+    {
+      "tag": "attendance_reminder",
+      "patterns": ["Will there be attendance checks this week?", "Attendance notification", "Reminder for attendance"],
+      "responses": ["Attendance checks may occur randomly throughout the semester. It's important to attend all classes regularly. Check the announcements on the student portal for any upcoming attendance checks or notifications.", "You will receive notifications regarding attendance checks through the student portal or college email. Make sure to stay updated with your college communications.", "Consider setting up notifications on the student portal to receive reminders about upcoming attendance checks."]
+    },
+    {
+      "tag": "leave_of_absence",
+      "patterns": ["How can I apply for a leave of absence?", "Leave of absence policy", "Extending leave"],
+      "responses": ["To apply for a leave of absence, please contact the academic advising office or submit a request through the student portal.", "Details about the leave of absence policy can be found in the student handbook or on the college website.", "If you need to extend your leave of absence, contact the academic advising office for guidance and support."]
+    },
+    {
+      "tag": "makeup_exams",
+      "patterns": ["How can I request a makeup exam?", "Makeup exam policy", "Missed an exam"],
+      "responses": ["To request a makeup exam, contact the exam office or your instructor as soon as possible. The process may involve providing documentation for a valid reason.", "Details about the makeup exam policy can be found in the course syllabus or by contacting the exam office.", "If you missed an exam, reach out to your instructor immediately to discuss the possibility of a makeup exam and any necessary arrangements."]
+    },
+    {
+      "tag": "low_attendance",
+      "patterns": ["How can I check my attendance?", "What happens if my attendance is low?", "Attendance policy"],
+      "responses": ["You can check your attendance by logging into the student portal and navigating to the attendance section.", "If your attendance is consistently low, you may face consequences such as being ineligible for exams or academic probation. It's important to adhere to the attendance policy.", "The attendance policy is outlined in the college handbook. You can also find details in the attendance section on the student portal."]
+    },
+    {
+      "tag": "attendance_warning",
+      "patterns": ["I received an attendance warning. What should I do?", "Consequences of attendance warning", "Attendance improvement"],
+      "responses": ["If you've received an attendance warning, take immediate action to improve your attendance. Contact the attendance office for guidance on how to address the warning.", "Consequences of attendance warnings may include academic probation or additional monitoring. It's crucial to attend classes regularly to avoid such issues.", "To improve your attendance, consider reaching out to your professors, using resources available for missed classes, and setting a schedule to attend all classes."]
+    },
+    {
+      "tag": "timetable",
+      "patterns": ["Where can I find my class timetable?", "Timetable for this week", "How to check the exam timetable?"],
+      "responses": ["Your class timetable is available on the student portal. Log in and go to the timetable section to view it.", "To see the timetable for this week, navigate to the timetable section on the student portal. Exam timetables can also be found there."]
+    },
+    {
+      "tag": "room_assignments",
+      "patterns": ["How can I find out my classroom for a specific class?", "Room assignments for today", "Classroom changes"],
+      "responses": ["You can find your classroom information for a specific class on the student portal under room assignments. Check there for details.", "For today's room assignments, visit the student portal's room assignments section. Any changes to classrooms will be updated on the portal."]
+    },
+    {
+      "tag": "class_cancellations",
+      "patterns": ["Is my class canceled today?", "Class cancellations for tomorrow", "How to get notified about canceled classes?"],
+      "responses": ["To check if your class is canceled today, visit the student portal's announcements section. For cancellations tomorrow, check the portal in the morning.", "Notifications about canceled classes are sent through the student portal. Ensure you have opted in for notifications and check the announcements section for updates."]
+    },
+    {
+      "tag": "fee_payment",
+      "patterns": ["How can I pay my tuition fee?","How can I pay my fee?", "fee payment methods", "Late payment penalties"],
+      "responses": ["Tuition fee payment can be made through the student portal. Visit the finance section to find available payment methods.", "Accepted tuition fee payment methods include [mention methods]. Ensure payments are made by the due date to avoid late payment penalties."]
+    },
+    {
+      "tag": "scholarship_information",
+      "patterns": ["How do I apply for scholarships?", "List of available scholarships", "Scholarship criteria"],
+      "responses": ["Details on applying for scholarships can be found on the college website or by contacting the scholarship office.", "A list of available scholarships is accessible through the student portal. Check eligibility criteria and deadlines for each scholarship."]
+    },
+    {
+      "tag": "financial_statements",
+      "patterns": ["Where can I access my financial statements?", "Viewing transaction history", "Annual financial statements"],
+      "responses": ["Your financial statements are available in the finance section of the student portal. Access them to view your transaction history and annual financial statements."]
+    },
+    {
+      "tag": "fee_waivers",
+      "patterns": ["How can I apply for a fee waiver?", "Eligibility for fee waivers", "Fee waiver approval process"],
+      "responses": ["Information on applying for fee waivers is provided on the college website or by contacting the finance office.", "Eligibility criteria for fee waivers include [mention criteria]. The approval process involves [mention steps], and you can check the status on the student portal."]
+    },
+    {
+      "tag": "exam_rules",
+      "patterns": ["What are the rules for the exam hall?", "Items allowed in the exam hall", "Late entry policy"],
+      "responses": ["The rules for the exam hall are available on the student portal under the exam section. Make sure to review them before your exam.", "Only specific items are allowed in the exam hall. Check the exam rules on the student portal for the list of permitted items.", "Late entry to the exam hall is not permitted. Please arrive on time as per the exam schedule."]
+    },
+    {
+      "tag": "exam_results",
+      "patterns": ["When will exam results be declared?", "How can I check my exam results?", "Grading system"],
+      "responses": ["Exam results are usually declared [mention duration] after the completion of exams. Check the student portal for result announcements.", "You can check your exam results on the student portal under the exam results section.", "The grading system is available on the college website or in the academic handbook."]
+    },
+    {
+      "tag": "summer_exchange",
+      "patterns": ["Tell me about the summer exchange program.", "How can I apply for the summer exchange program?", "Application deadline for summer exchange"],
+      "responses": ["The summer exchange program provides opportunities for students to study abroad during the summer. Details about the program can be found on the college website or by contacting the international programs office.", "To apply for the summer exchange program, visit the international programs office or check the program details on the student portal. The application deadline is [date]."]
+    },
+    {
+      "tag": "travel_accommodation",
+      "patterns": ["What support is provided for travel during the exchange program?", "Accommodation arrangements for summer exchange", "Can I extend my stay during the exchange?"],
+      "responses": ["The college may provide support or information regarding travel arrangements. Contact the international programs office for details.", "Accommodation details for the summer exchange program can be found on the student portal or by contacting the international programs office.", "If you wish to extend your stay during the exchange program, discuss the possibility with the international programs office. Additional arrangements may be available."]
+    },
+    {
+      "tag": "dress_code",
+      "patterns": ["What is the dress code for classes?", "Are there any specific dress guidelines for exams?", "Dress code violations"],
+      "responses": ["The dress code for classes is [mention dress code]. For exams, please adhere to [specific guidelines].", "Exams have specific dress guidelines outlined in the student handbook. Ensure you follow those guidelines to avoid any issues during exams.", "Dress code violations may result in penalties. Familiarize yourself with the dress code policies available on the student portal or in the student handbook."]
+    },
+    {
+      "tag": "campus_rules",
+      "patterns": ["What are the campus rules?", "Where can I find information about college policies?", "Consequences for breaking rules"],
+      "responses": ["Campus rules cover various aspects, including conduct and use of facilities. Please review the student handbook or the rules section on the student portal for details.", "Information about college policies can be found on the student portal or by contacting the college administration.", "Consequences for breaking rules are outlined in the student handbook. It's important to be aware of and follow the rules to maintain a positive campus environment."]
+    },
+    {
+      "tag": "health_safety",
+      "patterns": ["COVID-19 protocols on campus", "Emergency procedures", "Health services available"],
+      "responses": ["Current COVID-19 protocols are available on the student portal. Stay informed about any updates or changes.", "Familiarize yourself with emergency procedures, including evacuation plans. Details can be found in the student handbook or on the student portal.", "Health services are available on campus. Check the student portal for information on available services and how to access them."]
+   },
+   {  
+      "tag": "hostel",
+      "patterns": ["How do I apply for hostel accommodation?", "Hostel fees", "Hostel check-in/check-out process"],
+      "responses": ["To apply for hostel accommodation, visit the hostel section on the student portal or contact the hostel office for application details.", "Hostel fees are [mention fees]. You can check your hostel fee balance on the student portal.", "The hostel check-in and check-out process details can be found on the student portal or by contacting the hostel office."]
+   },
+   {
+      "tag": "room_allocation",
+      "patterns": ["How are rooms allocated in the hostel?", "Can I choose my roommate?", "Room change process"],
+      "responses": ["Room allocations are usually based on preferences and availability. Check the hostel section on the student portal for room allocation details.", "In some cases, you may have the option to choose your roommate. Contact the hostel office for more information.", "If you wish to change your room, please follow the room change process outlined on the student portal or inquire at the hostel office."]
+   },
+   {
+    "tag": "medical_leave",
+    "patterns": ["How can I apply for medical leave?", "Medical leave approval process", "Documentation required for medical leave"],
+    "responses": ["To apply for medical leave, visit the medical leave section on the student portal and follow the application process.", "The medical leave approval process involves submitting the required documentation to the health services office. You can find more details on the student portal.", "For medical leave, you may need to provide a medical certificate or a note from a healthcare professional. Check the medical leave section on the student portal for specific documentation requirements."]
+ },
+ {
+    "tag": "health_services",
+    "patterns": ["How can I contact health services?", "Health clinic hours", "Services offered by the health clinic"],
+    "responses": ["You can contact health services by visiting their office or calling [health services contact number]. Health clinic hours are [mention hours].", "The health clinic offers services such as general check-ups, vaccinations, and health consultations. Check the health services section on the student portal for more information."]
+ },
+ {
+    "tag": "insurance",
+    "patterns": ["Is health insurance provided by the college?", "Health insurance coverage details", "How to enroll in health insurance"],
+    "responses": ["The college provides health insurance coverage. For details on the coverage and benefits, visit the health insurance section on the student portal.", "To enroll in health insurance, follow the instructions provided in the health insurance section." ]
+ }
+    
+  ]
+}
