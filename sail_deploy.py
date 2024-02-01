@@ -20,7 +20,7 @@ import numpy as np
 import nltk
 nltk.data.path.append("nltk_data")
 
-st.markdown('<style>' + open('custom.css').read() + '</style>', unsafe_allow_html=True)
+st.markdown('<link rel="stylesheet" href="custom.css">', unsafe_allow_html=True)
 
 # Load the trained model and preprocessed data
 model = tf.keras.models.load_model('model.h5')
