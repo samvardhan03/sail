@@ -1,15 +1,13 @@
-/* Change the background color of the chat interface */
+
 .chat-container {
     background-color: #f5f5f5;
   }
   
-  /* Change the font size and color of the chat messages */
   .chat-message {
     font-size: 16px;
     color: #333;
   }
   
-  /* Change the font size and color of the user input */
   .chat-input {
     font-size: 16px;
     color: #333;
