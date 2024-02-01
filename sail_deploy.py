@@ -17,6 +17,9 @@ import nltk
 from nltk.stem.lancaster import LancasterStemmer
 import numpy as np
 
+import nltk
+nltk.data.path.append("nltk_data")
+
 # Load the trained model and preprocessed data
 model = tf.keras.models.load_model('model.h5')
 data = pickle.load(open('training_data', 'rb'))
