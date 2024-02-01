@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1VYaUE-ZD9v2zIYvmtSVQsrXwoBqlteVA
 """
 
-pip install streamlit
 
 import streamlit as st
 import tensorflow as tf
@@ -17,15 +16,6 @@ import random
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 import numpy as np
-
-from google.colab import files
-uploaded = files.upload()
-
-from google.colab import files
-uploaded = files.upload()
-
-from google.colab import files
-uploaded = files.upload()
 
 # Load the trained model and preprocessed data
 model = tf.keras.models.load_model('model.h5')
