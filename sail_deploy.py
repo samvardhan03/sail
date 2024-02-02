@@ -72,7 +72,6 @@ def get_response(intents_list, intents_json):
 # Define the Streamlit app
 def app():
     st.title("STUDENT ASSISTANCE AND INFORMATION LIASION")
-    st.image('sail_bot.png', width=200)
     user_input = st.text_input("You: ", "")
     if user_input:
         ints = predict_class(user_input, model)
