@@ -20,7 +20,6 @@ import numpy as np
 import nltk
 nltk.data.path.append("nltk_data")
 
-st.markdown('<link rel="stylesheet" href="custom.css">', unsafe_allow_html=True)
 
 # Load the trained model and preprocessed data
 model = tf.keras.models.load_model('model.h5')
@@ -73,6 +72,20 @@ def get_response(intents_list, intents_json):
 # Define the Streamlit app
 def app():
     st.title("SAIL")
+    st.markdown(
+        """
+        <style>
+            /* Move input text box to the bottom of the page */
+            div.stTextInput {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
     user_input = st.text_input("You: ", "")
     if user_input:
         ints = predict_class(user_input, model)
