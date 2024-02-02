@@ -72,7 +72,7 @@ def get_response(intents_list, intents_json):
 
 # Define the Streamlit app
 def app():
-    st.title("Chatbot")
+    st.title("SAIL")
     user_input = st.text_input("You: ", "")
     if user_input:
         ints = predict_class(user_input, model)
